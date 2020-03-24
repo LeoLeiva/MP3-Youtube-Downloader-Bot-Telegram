@@ -13,6 +13,7 @@ _Que paquetes necesitas para ejecutar el script aparte de Python_
 
 * [Youtube_dl](https://pypi.org/project/youtube_dl/)
 * [Python Telegram Bot](https://pypi.org/project/python-telegram-bot/)
+* [ffmpeg](https://www.ffmpeg.org/download.html) => Seguir paso 5
 
 ---
 
@@ -22,8 +23,11 @@ _Que paquetes necesitas para ejecutar el script aparte de Python_
 >2)Le asignamos un nombre y luego del nombre le agregamos la palabra bot, por ejemplo: Miscriptbot  
 >3)Una vez elegido el nombre nos dara un Token API copiamos este token y lo agregamos en el archivo idtoken.py  
 >4)Abrimos el archivo mp3ytdl.py con nuetro editor y en "URL-PROYECT" agregamos la ruta donde va a estar alojado nuestro archivo py, ejemplo: www.dominio.com/mi-proyecto  
->5)Solo nos queda activarlo desde nuestra consola con: python mp3ytdl.py  
->6)Buscamos nuestro bot en telegram con el nombre que le habiamos designado y le damos en iniciar  
+>5)Descargar [ffmpeg](https://www.ffmpeg.org/download.html) y descomprimir los tres archivos (ffmpeg.exe, ffplay.exe y ffprobe.exe) dentro del entorno virtual en la carpeta segun sistema operativo:  
+* Windows: scripts
+* Linux: bin
+>6)Solo nos queda activarlo desde nuestra consola con: python mp3ytdl.py  
+>7)Buscamos nuestro bot en telegram con el nombre que le habiamos designado y le damos en iniciar  
 
 ---
 
